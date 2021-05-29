@@ -69,4 +69,14 @@ export interface LolStatusV4UpdateDto {
  * @export
  * @enum {string}
  */
-export type LolStatusV4UpdateDtoPublishLocationsEnum = 'string'
+export type LolStatusV4UpdateDtoPublishLocationsEnum =  'string' 
+
+/**
+ * @export
+ * @enum {string}
+ */
+export const LolStatusV4UpdateDtoPublishLocationsEnum = {
+};
+
+
+

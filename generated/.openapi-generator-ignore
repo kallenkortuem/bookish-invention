@@ -21,10 +21,3 @@
 #docs/*.md
 # Then explicitly reverse the ignore rule for a single file:
 #!docs/README.md
-
-model/lol-status-v4-status-dto.ts
-model/lol-status-v4-update-dto.ts
-model/lor-status-v1-status-dto.ts
-model/lor-status-v1-update-dto.ts
-model/val-status-v1-status-dto.ts
-model/val-status-v1-update-dto.ts

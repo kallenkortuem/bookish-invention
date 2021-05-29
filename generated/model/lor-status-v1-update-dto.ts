@@ -69,6 +69,14 @@ export interface LorStatusV1UpdateDto {
  * @export
  * @enum {string}
  */
-export type LorStatusV1UpdateDtoPublishLocationsEnum = 'string';
+export type LorStatusV1UpdateDtoPublishLocationsEnum =  'string' 
+
+/**
+ * @export
+ * @enum {string}
+ */
+export const LorStatusV1UpdateDtoPublishLocationsEnum = {
+};
+
 
 

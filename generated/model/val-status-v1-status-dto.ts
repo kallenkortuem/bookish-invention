@@ -112,5 +112,14 @@ export const ValStatusV1StatusDtoIncidentSeverityEnum = {
  * @export
  * @enum {string}
  */
-export type ValStatusV1StatusDtoPlatformsEnum = 'string'
+export type ValStatusV1StatusDtoPlatformsEnum =  'string' 
+
+/**
+ * @export
+ * @enum {string}
+ */
+export const ValStatusV1StatusDtoPlatformsEnum = {
+};
+
+
 

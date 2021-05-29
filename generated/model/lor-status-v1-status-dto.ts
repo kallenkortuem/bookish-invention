@@ -112,5 +112,14 @@ export const LorStatusV1StatusDtoIncidentSeverityEnum = {
  * @export
  * @enum {string}
  */
-export type LorStatusV1StatusDtoPlatformsEnum = 'string'
+export type LorStatusV1StatusDtoPlatformsEnum =  'string' 
+
+/**
+ * @export
+ * @enum {string}
+ */
+export const LorStatusV1StatusDtoPlatformsEnum = {
+};
+
+
 

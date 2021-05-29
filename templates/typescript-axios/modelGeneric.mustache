@@ -27,7 +27,7 @@ export interface {{classname}} {{#parent}}extends {{{parent}}} {{/parent}}{
  * @export
  * @enum {string}
  */
-export type {{enumName}} = {{#allowableValues}}{{#enumVars}}{{{value}}}{{^-last}} | {{/-last}}{{/enumVars}}{{/allowableValues}}
+export type {{enumName}} = {{#allowableValues}}{{#enumVars.0}}{{#enumVars}}{{{value}}}{{^-last}} | {{/-last}}{{/enumVars}}{{/enumVars.0}}{{^enumVars.0}} 'string' {{/enumVars.0}}{{/allowableValues}}
 
 /**
  * @export
