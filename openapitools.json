@@ -9,7 +9,10 @@
         "inputSpec": "http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.yml",
         "output": "./generated",
         "skipValidateSpec": true,
-        "templateDir": "./templates/typescript-axios",
+        "templateDir": "templates/typescript-axios",
+        "apiPackage": "api",
+        "modelPackage": "model",
+        "enablePostProcessFile": true,
         "additionalProperties": {
           "withInterfaces": true,
           "supportsES6": true,

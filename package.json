@@ -7,7 +7,9 @@
   "author": "Kallen Kortuem <kallenjkortuem@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "oa": "openapi-generator-cli"
+    "oa": "openapi-generator-cli",
+    "preoa:generate": "rm -r -f ./generated/model && rm -r -f ./generated/api",
+    "oa:generate": "openapi-generator-cli generate"
   },
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "^2.3.3"
