@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "5.1.1",
+    "generators": {
+      "typescript-axios": {
+        "generatorName": "typescript-axios",
+        "inputSpec": "http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.yml",
+        "output": "./generated",
+        "skipValidateSpec": true,
+        "templateDir": "./templates/typescript-axios",
+        "additionalProperties": {
+          "withInterfaces": true,
+          "supportsES6": true,
+          "withSeparateModelsAndApi": true,
+          "npmName": "@kallenkortuem/bookish-invention",
+          "npmRepository": ""
+        }
+      }
+    }
+  }
+}
