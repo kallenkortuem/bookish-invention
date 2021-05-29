@@ -15,7 +15,7 @@
           "supportsES6": true,
           "withSeparateModelsAndApi": true,
           "npmName": "@kallenkortuem/bookish-invention",
-          "npmRepository": ""
+          "npmRepository": "git@github.com:kallenkortuem/bookish-invention.git"
         }
       }
     }
