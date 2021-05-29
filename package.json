@@ -2,8 +2,14 @@
   "name": "bookish-invention",
   "version": "1.0.0",
   "description": "Riot Games API",
-  "main": "index.js",
+  "main": "main.js",
   "repository": "git@github.com:kallenkortuem/bookish-invention.git",
   "author": "Kallen Kortuem <kallenjkortuem@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "generate": "openapi-generator-cli generate"
+  },
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.3.3"
+  }
 }
