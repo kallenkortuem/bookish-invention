@@ -1,0 +1,9 @@
+{
+  "name": "bookish-invention",
+  "version": "1.0.0",
+  "description": "Riot Games API",
+  "main": "index.js",
+  "repository": "git@github.com:kallenkortuem/bookish-invention.git",
+  "author": "Kallen Kortuem <kallenjkortuem@gmail.com>",
+  "license": "MIT"
+}
