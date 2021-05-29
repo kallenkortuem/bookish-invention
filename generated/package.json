@@ -25,6 +25,6 @@
     "typescript": "^3.6.4"
   },
   "publishConfig": {
-    "registry": "git@github.com:kallenkortuem/bookish-invention.git"
+    "registry": "https://npm.pkg.github.com"
   }
 }
