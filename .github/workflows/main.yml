@@ -14,22 +14,22 @@ jobs:
           node-version: "14.x"
       
       - name: Install Dependencies
-      - run: yarn
+        run: yarn
 
       - name: Cleanup Old Files
-      - run: yarn lib:clean
+        run: yarn lib:clean
 
       - name: Generate Code
-      - run: yarn lib:generate
+        run: yarn lib:generate
 
       - name: Install Library Dependencies
         run: yarn lib:install
 
       - name: Build Library
-      - run: yarn lib:build
+        run: yarn lib:build
 
       - name: Publish Package
-      - run: yarn lib:publish
+        run: yarn lib:publish
 
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
