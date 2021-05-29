@@ -69,14 +69,5 @@ export interface ValStatusV1UpdateDto {
  * @export
  * @enum {string}
  */
-export type ValStatusV1UpdateDtoPublishLocationsEnum = 
-
-/**
- * @export
- * @enum {string}
- */
-export const ValStatusV1UpdateDtoPublishLocationsEnum = {
-};
-
-
+export type ValStatusV1UpdateDtoPublishLocationsEnum = 'string'
 

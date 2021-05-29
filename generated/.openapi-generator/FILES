@@ -57,8 +57,6 @@ model/lol-status-v3-shard-status.ts
 model/lol-status-v3-translation.ts
 model/lol-status-v4-content-dto.ts
 model/lol-status-v4-platform-data-dto.ts
-model/lol-status-v4-status-dto.ts
-model/lol-status-v4-update-dto.ts
 model/lor-deck-v1-deck-dto.ts
 model/lor-deck-v1-new-deck-dto.ts
 model/lor-inventory-v1-card-dto.ts
@@ -70,8 +68,6 @@ model/lor-ranked-v1-leaderboard-dto.ts
 model/lor-ranked-v1-player-dto.ts
 model/lor-status-v1-content-dto.ts
 model/lor-status-v1-platform-data-dto.ts
-model/lor-status-v1-status-dto.ts
-model/lor-status-v1-update-dto.ts
 model/match-v4-mastery-dto.ts
 model/match-v4-match-dto.ts
 model/match-v4-match-event-dto.ts
@@ -152,7 +148,5 @@ model/val-ranked-v1-leaderboard-dto.ts
 model/val-ranked-v1-player-dto.ts
 model/val-status-v1-content-dto.ts
 model/val-status-v1-platform-data-dto.ts
-model/val-status-v1-status-dto.ts
-model/val-status-v1-update-dto.ts
 package.json
 tsconfig.json
