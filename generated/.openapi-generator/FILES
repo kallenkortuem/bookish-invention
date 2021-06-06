@@ -112,8 +112,6 @@ model/match-v5-match-timeline-info-frame-participant-frames.ts
 model/match-v5-match-timeline-info-frame.ts
 model/match-v5-match-timeline-info-participant.ts
 model/match-v5-match-timeline-info.ts
-model/match-v5-match-timeline.ts
-model/match-v5-match.ts
 model/model-error.ts
 model/spectator-v4-banned-champion.ts
 model/spectator-v4-current-game-info.ts
