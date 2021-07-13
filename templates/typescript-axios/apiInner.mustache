@@ -17,6 +17,20 @@ import { {{classname}} } from '{{apiRelativeToRoot}}{{tsModelPackage}}';
 {{/withSeparateModelsAndApi}}
 {{^withSeparateModelsAndApi}}
 {{/withSeparateModelsAndApi}}
+
+{{#operations}}
+    {{#operation}}
+export const {{nickname}}Key = ({{#allParams}}{{paramName}}{{^required}}?{{/required}}: {{{dataType}}}, {{/allParams}}options: any = {}) => {
+    const localVarPath = `{{{path}}}`{{#pathParams}}
+        .replace(`{${"{{baseName}}"}}`, encodeURIComponent(String({{paramName}}))){{/pathParams}};
+    // use dummy base URL string because the URL constructor only accepts absolute URLs.
+    const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL);
+    const canSearch = true{{#allParams}}{{#required}} && {{paramName}} !== undefined && {{paramName}} !== null{{/required}}{{/allParams}};
+    return canSearch ? localVarUrlObj.toString() : null;
+}        
+    {{/operation}}
+{{/operations}}
+
 {{#operations}}
 /**
  * {{classname}} - axios parameter creator{{#description}}

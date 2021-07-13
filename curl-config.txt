@@ -1,0 +1,1 @@
+url = "http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.yml"
