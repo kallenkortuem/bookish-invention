@@ -11,10 +11,15 @@
     "lib:install": "yarn --cwd generated/typescript-axios",
     "lib:build": "yarn --cwd generated/typescript-axios build",
     "lib:publish": "yarn --cwd generated/typescript-axios publish",
-    "lib:download": "curl -K curl-config.txt -o openapi-3.0.0.yml",
+    "lib:download": "curl -K curl-config.txt -o openapi-3.0.0.json",
     "config-help": "openapi-generator-cli config-help -g=typescript-axios"
   },
   "devDependencies": {
-    "@openapitools/openapi-generator-cli": "^2.3.3"
+    "@openapitools/openapi-generator-cli": "^2.3.3",
+    "openapi-typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@types/node": "^16.3.1",
+    "swr": "^0.5.6"
   }
 }
