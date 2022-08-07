@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Regenerate Code
 
 on: [workflow_dispatch]
 
