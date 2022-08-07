@@ -41,8 +41,6 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           commit-message: Regenerate files
-          committer: GitHub <noreply@github.com>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
           delete-branch: true
           title: 'Regenerate API'
