@@ -1,4 +1,4 @@
-name: Regenerate Code
+name: Regenerate API
 
 on: [workflow_dispatch]
 
