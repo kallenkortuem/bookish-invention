@@ -1,6 +1,6 @@
 name: Node.js CI
 
-on: [push]
+on: [workflow_dispatch]
 
 jobs:
   build:
@@ -29,8 +29,20 @@ jobs:
       - name: Build Library
         run: yarn lib:build
 
-      - name: Publish Package
-        run: yarn lib:publish
+      # - name: Publish Package
+      #   run: yarn lib:publish
 
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: Regenerate files
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          signoff: false
+          delete-branch: true
+          title: 'Regenerate API'
+          draft: false
